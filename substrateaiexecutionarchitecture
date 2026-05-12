@@ -1,0 +1,79 @@
+Acesse e analise o repositório:
+https://github.com/Archy-AI/Substrate
+
+OBJETIVO:
+Transformar o repositório em uma "arquitetura de execução de IA" documentada em Markdown, sem alterar código.
+
+REGRA:
+Não invente comportamento. Tudo deve ser inferido de arquivos reais do repo: README, CLAUDE.md, docs, scripts, diretórios, configs e exemplos.
+
+TAREFA:
+1. Clone/abra o repo.
+2. Leia a árvore de arquivos.
+3. Identifique:
+   - propósito do sistema
+   - entidades principais
+   - diretórios e funções
+   - fluxo de entrada → processamento → saída
+   - pontos onde IA/LLM é usada ou presumida
+   - modelo de memória/contexto
+   - modelo de indexamento/leitura
+   - dependências e comandos
+   - limitações reais
+4. Gere um arquivo: AI_EXECUTION_ARCHITECTURE.md
+
+FORMATO DO ARQUIVO:
+# AI_EXECUTION_ARCHITECTURE.md
+
+## 1. Resumo Executivo
+Explique em poucas linhas o que o repo executa.
+
+## 2. Arquitetura de Execução
+Descreva o fluxo:
+INPUT → REPOSITORY STRUCTURE → INDEXING → CONTEXT BUILDING → AI ANALYSIS → OUTPUT
+
+## 3. Mapa Estrutural do Repositório
+Tabela:
+path | função | tipo | impacto na execução
+
+## 4. Componentes
+Para cada componente:
+- nome
+- path
+- responsabilidade
+- entrada
+- saída
+- dependências
+- evidência no código/arquivo
+
+## 5. Fluxo Operacional
+Descreva o workflow real em passos numerados.
+
+## 6. Modelo de Dados/Conhecimento
+Explique como arquivos, markdowns, links, referências e contexto viram base operacional para IA.
+
+## 7. Arquitetura de IA Inferida
+Mapeie:
+- leitura
+- indexamento
+- recuperação
+- raciocínio
+- síntese
+- escrita/saída
+
+## 8. Pseudocódigo de Execução
+Escreva pseudocódigo minimalista que represente o funcionamento do sistema.
+
+## 9. Limitações
+Liste o que o repo NÃO faz ou não comprova.
+
+## 10. Como Usar como Calculadora/Executor Semântico
+Explique como consultas podem atravessar o repo como grafo de conhecimento para produzir respostas ou decisões.
+
+CRITÉRIOS:
+- Citar paths reais.
+- Separar fato de inferência.
+- Não usar marketing.
+- Não criar arquitetura genérica fora do repo.
+- Ser técnico, compacto e direto.
+- Ao final, mostrar lista de arquivos lidos.
